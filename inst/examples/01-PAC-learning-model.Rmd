@@ -19,12 +19,12 @@ positive and negative examples.
 The goal of the player is to use as few examples as possible, and as
 little computation as possible, to pick a **hypothesis** rectangle which
 is a good approximation to $R$.
-Informally, the player's knowlege of $R$ is tested by picking a new point in
-the plane at random from a given probability distribution $\mathcal{D}$,
+Informally, the player's knowlege of $R$ is tested by picking a new point
+at random from a given probability distribution $\mathcal{D}$,
 and checking whether the player can decide whether the point falls inside
-of or outside of $R$.
+or outside of $R$.
 Formally, we measure the error of $R^{\prime}$ as the probability that a randomly
-picked point falls in the region $R \Delta R^{\prime}$, where $R\Delta R^{\prime} = (R-R^{\prime} \cup (R^{\prime}-R)$
+chosen point from $\mathcal{D}$ falls in the region $R \Delta R^{\prime}$, where $R\Delta R^{\prime} = (R-R^{\prime} \cup (R^{\prime}-R)$.
 
 Markdown is a wonderful language to write relatively simple documents that contain elements like sections, paragraphs, lists, links, and images, etc. Pandoc (<http://pandoc.org>) has greatly extended the [original Markdown syntax,](http://daringfireball.net/projects/markdown/) and added quite a few useful new features, such as footnotes, citations, and tables. More importantly, Pandoc makes it possible to generate output documents of a large variety of formats from Markdown, including HTML, LaTeX/PDF, Word, and slides.
 
