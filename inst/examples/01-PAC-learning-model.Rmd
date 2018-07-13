@@ -5,7 +5,7 @@
 ## A Rectangle Learning Game
 
 Consider a simple one-player learning game.
-The objective of this game is to learn an unkonown rectangle $R$ -- a
+The objective of this game is to learn an unknown rectangle $R$ -- a
 rectangle in the Euclidean plane $\mathbb{R}$ whose sides are parallel
 with the coordinate axes.
 The player receives information only through the following process: every
@@ -19,7 +19,7 @@ positive and negative examples.
 The goal of the player is to use as few examples as possible, and as
 little computation as possible, to pick a **hypothesis** rectangle which
 is a good approximation to $R$.
-Informally, the player's knowlege of $R$ is tested by picking a new point
+Informally, the player's knowledge of $R$ is tested by picking a new point
 at random from a given probability distribution $\mathcal{D}$,
 and checking whether the player can decide whether the point falls inside
 or outside of $R$.
@@ -28,16 +28,16 @@ randomly chosen point from $\mathcal{D}$ falls in the region $R \Delta
 R^{\prime}$, where $R\Delta R^{\prime} = (R-R^{\prime} \cup
 (R^{\prime}-R)$.
 
-To motivate the regtangle learning game, we consider a slightly more
-concrete scenrio that is expressed as an instance of the game.
+To motivate the rectangle learning game, consider a slightly more
+concrete scenario that is expressed as an instance of the game.
 Suppose that we wanted to learn the concept of "men of medium build".
-We assume that a man is of medium build if his height and weight lie in
-prescribed ranges -- for instance, if his height is from five feet and six
-inches to six feet and his weight is from 150 pounds to 200 pounds.
+Assume that a man is of medium build if his height and weight lie in some
+prescribed ranges -- for instance, if his height is between five feet and six
+inches and six feet and his weight is between 150 pounds and 200 pounds.
 Then each man's build can be represented by a point in the Euclidean
 plane, and the concept of medium build can be represented by an
 axis-aligned rectangular region of the plane.
-During the training phase, the learner is told for each new man he meets
-whether that man is of medium build or not.
-Over the period, the learner must form a model or hypothesis of the
+Thus, during an initial training phase, the learner is told for each new
+man he meets whether that man is of medium build or not.
+Over this period, the learner must form some model or hypothesis of the
 concept of medium build.
