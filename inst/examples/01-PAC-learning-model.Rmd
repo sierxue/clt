@@ -27,3 +27,17 @@ Formally, we measure the error of $R^{\prime}$ as the probability that a
 randomly chosen point from $\mathcal{D}$ falls in the region $R \Delta
 R^{\prime}$, where $R\Delta R^{\prime} = (R-R^{\prime} \cup
 (R^{\prime}-R)$.
+
+To motivate the regtangle learning game, we consider a slightly more
+concrete scenrio that is expressed as an instance of the game.
+Suppose that we wanted to learn the concept of "men of medium build".
+We assume that a man is of medium build if his height and weight lie in
+prescribed ranges -- for instance, if his height is from five feet and six
+inches to six feet and his weight is from 150 pounds to 200 pounds.
+Then each man's build can be represented by a point in the Euclidean
+plane, and the concept of medium build can be represented by an
+axis-aligned rectangular region of the plane.
+During the training phase, the learner is told for each new man he meets
+whether that man is of medium build or not.
+Over the period, the learner must form a model or hypothesis of the
+concept of medium build.
