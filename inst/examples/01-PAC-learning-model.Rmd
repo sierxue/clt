@@ -12,7 +12,8 @@ The player receives information only through the following process: every
 so often, a random point $p$ is chosen according to some fixed probability
 distribution $\mathcal{D}$.
 The player is given the point $p$ together with a label indicating whether 
-the point is contained in $R$ (a positive example) or not contained in $R$ (a negative example).
+the point is contained in $R$ (a positive example) or not contained in $R$
+(a negative example).
 Figure 1.1 shows the unknown rectangle region R along with a sample of
 positive and negative examples.
 
